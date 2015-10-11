@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D6AF71C1BCAB8A200A91292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AF71B1BCAB8A200A91292 /* AppDelegate.swift */; };
+		7D6AF71E1BCAB8A200A91292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AF71D1BCAB8A200A91292 /* ViewController.swift */; };
+		7D6AF7211BCAB8A200A91292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AF71F1BCAB8A200A91292 /* Main.storyboard */; };
+		7D6AF7231BCAB8A200A91292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AF7221BCAB8A200A91292 /* Assets.xcassets */; };
+		7D6AF7261BCAB8A200A91292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AF7241BCAB8A200A91292 /* LaunchScreen.storyboard */; };
+		7D6AF7311BCAB8A200A91292 /* PrimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AF7301BCAB8A200A91292 /* PrimaTests.swift */; };
+		7D6AF73C1BCAB8A200A91292 /* PrimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AF73B1BCAB8A200A91292 /* PrimaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6AF72D1BCAB8A200A91292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6AF7101BCAB8A200A91292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6AF7171BCAB8A200A91292;
+			remoteInfo = Prima;
+		};
+		7D6AF7381BCAB8A200A91292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6AF7101BCAB8A200A91292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6AF7171BCAB8A200A91292;
+			remoteInfo = Prima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D6AF7181BCAB8A200A91292 /* Prima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6AF71B1BCAB8A200A91292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D6AF71D1BCAB8A200A91292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D6AF7201BCAB8A200A91292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D6AF7221BCAB8A200A91292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D6AF7251BCAB8A200A91292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D6AF7271BCAB8A200A91292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6AF72C1BCAB8A200A91292 /* PrimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6AF7301BCAB8A200A91292 /* PrimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaTests.swift; sourceTree = "<group>"; };
+		7D6AF7321BCAB8A200A91292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6AF7371BCAB8A200A91292 /* PrimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6AF73B1BCAB8A200A91292 /* PrimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaUITests.swift; sourceTree = "<group>"; };
+		7D6AF73D1BCAB8A200A91292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D6AF7151BCAB8A200A91292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AF7291BCAB8A200A91292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AF7341BCAB8A200A91292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D6AF70F1BCAB8A200A91292 = {
+			isa = PBXGroup;
+			children = (
+				7D6AF71A1BCAB8A200A91292 /* Prima */,
+				7D6AF72F1BCAB8A200A91292 /* PrimaTests */,
+				7D6AF73A1BCAB8A200A91292 /* PrimaUITests */,
+				7D6AF7191BCAB8A200A91292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6AF7191BCAB8A200A91292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6AF7181BCAB8A200A91292 /* Prima.app */,
+				7D6AF72C1BCAB8A200A91292 /* PrimaTests.xctest */,
+				7D6AF7371BCAB8A200A91292 /* PrimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D6AF71A1BCAB8A200A91292 /* Prima */ = {
+			isa = PBXGroup;
+			children = (
+				7D6AF71B1BCAB8A200A91292 /* AppDelegate.swift */,
+				7D6AF71D1BCAB8A200A91292 /* ViewController.swift */,
+				7D6AF71F1BCAB8A200A91292 /* Main.storyboard */,
+				7D6AF7221BCAB8A200A91292 /* Assets.xcassets */,
+				7D6AF7241BCAB8A200A91292 /* LaunchScreen.storyboard */,
+				7D6AF7271BCAB8A200A91292 /* Info.plist */,
+			);
+			path = Prima;
+			sourceTree = "<group>";
+		};
+		7D6AF72F1BCAB8A200A91292 /* PrimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6AF7301BCAB8A200A91292 /* PrimaTests.swift */,
+				7D6AF7321BCAB8A200A91292 /* Info.plist */,
+			);
+			path = PrimaTests;
+			sourceTree = "<group>";
+		};
+		7D6AF73A1BCAB8A200A91292 /* PrimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6AF73B1BCAB8A200A91292 /* PrimaUITests.swift */,
+				7D6AF73D1BCAB8A200A91292 /* Info.plist */,
+			);
+			path = PrimaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6AF7171BCAB8A200A91292 /* Prima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6AF7401BCAB8A200A91292 /* Build configuration list for PBXNativeTarget "Prima" */;
+			buildPhases = (
+				7D6AF7141BCAB8A200A91292 /* Sources */,
+				7D6AF7151BCAB8A200A91292 /* Frameworks */,
+				7D6AF7161BCAB8A200A91292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prima;
+			productName = Prima;
+			productReference = 7D6AF7181BCAB8A200A91292 /* Prima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6AF72B1BCAB8A200A91292 /* PrimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6AF7431BCAB8A200A91292 /* Build configuration list for PBXNativeTarget "PrimaTests" */;
+			buildPhases = (
+				7D6AF7281BCAB8A200A91292 /* Sources */,
+				7D6AF7291BCAB8A200A91292 /* Frameworks */,
+				7D6AF72A1BCAB8A200A91292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6AF72E1BCAB8A200A91292 /* PBXTargetDependency */,
+			);
+			name = PrimaTests;
+			productName = PrimaTests;
+			productReference = 7D6AF72C1BCAB8A200A91292 /* PrimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D6AF7361BCAB8A200A91292 /* PrimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6AF7461BCAB8A200A91292 /* Build configuration list for PBXNativeTarget "PrimaUITests" */;
+			buildPhases = (
+				7D6AF7331BCAB8A200A91292 /* Sources */,
+				7D6AF7341BCAB8A200A91292 /* Frameworks */,
+				7D6AF7351BCAB8A200A91292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6AF7391BCAB8A200A91292 /* PBXTargetDependency */,
+			);
+			name = PrimaUITests;
+			productName = PrimaUITests;
+			productReference = 7D6AF7371BCAB8A200A91292 /* PrimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6AF7101BCAB8A200A91292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mary Grace Lucas";
+				TargetAttributes = {
+					7D6AF7171BCAB8A200A91292 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					7D6AF72B1BCAB8A200A91292 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7D6AF7171BCAB8A200A91292;
+					};
+					7D6AF7361BCAB8A200A91292 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7D6AF7171BCAB8A200A91292;
+					};
+				};
+			};
+			buildConfigurationList = 7D6AF7131BCAB8A200A91292 /* Build configuration list for PBXProject "Prima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D6AF70F1BCAB8A200A91292;
+			productRefGroup = 7D6AF7191BCAB8A200A91292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6AF7171BCAB8A200A91292 /* Prima */,
+				7D6AF72B1BCAB8A200A91292 /* PrimaTests */,
+				7D6AF7361BCAB8A200A91292 /* PrimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6AF7161BCAB8A200A91292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6AF7261BCAB8A200A91292 /* LaunchScreen.storyboard in Resources */,
+				7D6AF7231BCAB8A200A91292 /* Assets.xcassets in Resources */,
+				7D6AF7211BCAB8A200A91292 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AF72A1BCAB8A200A91292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AF7351BCAB8A200A91292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6AF7141BCAB8A200A91292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6AF71E1BCAB8A200A91292 /* ViewController.swift in Sources */,
+				7D6AF71C1BCAB8A200A91292 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AF7281BCAB8A200A91292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6AF7311BCAB8A200A91292 /* PrimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AF7331BCAB8A200A91292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6AF73C1BCAB8A200A91292 /* PrimaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6AF72E1BCAB8A200A91292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6AF7171BCAB8A200A91292 /* Prima */;
+			targetProxy = 7D6AF72D1BCAB8A200A91292 /* PBXContainerItemProxy */;
+		};
+		7D6AF7391BCAB8A200A91292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6AF7171BCAB8A200A91292 /* Prima */;
+			targetProxy = 7D6AF7381BCAB8A200A91292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D6AF71F1BCAB8A200A91292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6AF7201BCAB8A200A91292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D6AF7241BCAB8A200A91292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6AF7251BCAB8A200A91292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D6AF73E1BCAB8A200A91292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6AF73F1BCAB8A200A91292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6AF7411BCAB8A200A91292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mgl.Prima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D6AF7421BCAB8A200A91292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mgl.Prima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D6AF7441BCAB8A200A91292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mgl.PrimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prima.app/Prima";
+			};
+			name = Debug;
+		};
+		7D6AF7451BCAB8A200A91292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mgl.PrimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prima.app/Prima";
+			};
+			name = Release;
+		};
+		7D6AF7471BCAB8A200A91292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrimaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mgl.PrimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Prima;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7D6AF7481BCAB8A200A91292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrimaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mgl.PrimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Prima;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D6AF7131BCAB8A200A91292 /* Build configuration list for PBXProject "Prima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6AF73E1BCAB8A200A91292 /* Debug */,
+				7D6AF73F1BCAB8A200A91292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6AF7401BCAB8A200A91292 /* Build configuration list for PBXNativeTarget "Prima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6AF7411BCAB8A200A91292 /* Debug */,
+				7D6AF7421BCAB8A200A91292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D6AF7431BCAB8A200A91292 /* Build configuration list for PBXNativeTarget "PrimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6AF7441BCAB8A200A91292 /* Debug */,
+				7D6AF7451BCAB8A200A91292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D6AF7461BCAB8A200A91292 /* Build configuration list for PBXNativeTarget "PrimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6AF7471BCAB8A200A91292 /* Debug */,
+				7D6AF7481BCAB8A200A91292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6AF7101BCAB8A200A91292 /* Project object */;
+}
