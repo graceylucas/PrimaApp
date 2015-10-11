@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Prima" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,80 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is my number prime?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiF-BM-nkT">
+                                <rect key="frame" x="34" y="25" width="215" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="7jc-Gb-mI5"/>
+                                    <constraint firstAttribute="height" constant="28" id="ALh-GA-lvM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTg-KP-zKm">
+                                <rect key="frame" x="34" y="112" width="99" height="35"/>
+                                <color key="backgroundColor" red="0.0" green="0.90733506944444442" blue="0.90733506944444442" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="MtV-F4-6xR"/>
+                                    <constraint firstAttribute="height" constant="35" id="mZh-vS-1LM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <color key="tintColor" red="0.0" green="0.9450981021" blue="0.93725496529999996" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="FIND OUT">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findOutButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DKT-Rc-12H"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttf-c6-763">
+                                <rect key="frame" x="120" y="233" width="361" height="312"/>
+                                <color key="backgroundColor" red="0.76581270759598463" green="1" blue="0.97616131148402296" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="0hv-ww-YQk"/>
+                                    <constraint firstAttribute="width" constant="327" id="9Vb-RP-9J9"/>
+                                    <constraint firstAttribute="height" constant="312" id="IQg-m5-RvL"/>
+                                    <constraint firstAttribute="height" constant="248" id="zGi-5s-7lm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="168"/>
+                                <color key="textColor" red="0.37647058823529411" green="0.89803921568627454" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.085813179414677115" green="0.6810684974747474" blue="0.66843886598326618" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="0.0"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9Vb-RP-9J9"/>
+                                        <exclude reference="zGi-5s-7lm"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wJZ-S6-oTg">
+                                <rect key="frame" x="34" y="66" width="109" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90733506944444442" green="0.54143231232519362" blue="0.63518430648596846" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NTg-KP-zKm" firstAttribute="top" secondItem="wJZ-S6-oTg" secondAttribute="bottom" constant="16" id="4Pq-YV-hcl"/>
+                            <constraint firstItem="wJZ-S6-oTg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="Dda-i2-j3h"/>
+                            <constraint firstItem="NTg-KP-zKm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="HYY-IE-jch"/>
+                            <constraint firstItem="Ttf-c6-763" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K6A-6w-6yR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ttf-c6-763" secondAttribute="bottom" constant="55" id="K9Q-na-gle"/>
+                            <constraint firstItem="FiF-BM-nkT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="hNw-LK-Jd4"/>
+                            <constraint firstItem="wJZ-S6-oTg" firstAttribute="top" secondItem="FiF-BM-nkT" secondAttribute="bottom" constant="13" id="mYU-Qr-cem"/>
+                            <constraint firstItem="FiF-BM-nkT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="zQU-1C-6OU"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="enterNumbertextField" destination="wJZ-S6-oTg" id="8vu-0j-RZw"/>
+                        <outlet property="primeAnswerLabel" destination="Ttf-c6-763" id="U0k-qj-qqE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="236" y="391"/>
         </scene>
     </scenes>
 </document>
